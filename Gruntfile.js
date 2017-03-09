@@ -2,12 +2,12 @@ module.exports = function(grunt) {
 
     global.repos = {
         staging: {
-            origin: 'git@github.com:binary-com/binary-static.git',
-            CNAME: 'staging.binary.com',
+            origin: 'git@github.com:apatrade/apabinary.git',
+            CNAME: 'apastaging.binary.com',
         },
         production: {
-            origin: 'git@github.com:binary-static-deployed/binary-static.git',
-            CNAME: 'www.binary.com',
+            origin: 'git@github.com:apatrade-deployed/apabinary-static.git',
+            CNAME: 'www.apabinary.com',
         },
     };
 
